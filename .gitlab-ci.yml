@@ -1,0 +1,13 @@
+image: node:lts
+before_script:
+  - yarn
+
+stages:
+  - linter
+  - test
+
+linter:
+  stage: linter
+  script:
+    - yarn eslint
+
