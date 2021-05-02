@@ -1,0 +1,37 @@
+.main-head {
+	display: flex;
+	align-items: center;
+	font-size: 1.25em;
+	color: white;
+	text-decoration: none;
+	margin: 0px;
+}
+
+.main-name:hover {
+	color: grey;
+}
+
+.main-nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.1em;
+}
+
+.main-nav a {
+	color: inherit;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+.main-nav a:hover {
+	color: grey;
+}
+
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
