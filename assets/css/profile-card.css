@@ -5,7 +5,8 @@
 }
 
 .main {
-	height: 100vh;
+	justify-content: right;
+	align-items: baseline;
 }
 
 .box {
