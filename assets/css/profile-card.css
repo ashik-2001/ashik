@@ -1,12 +1,8 @@
-.center {
+.main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.main {
-	justify-content: right;
-	align-items: baseline;
+	flex-wrap: wrap;
 }
 
 .box {
@@ -18,6 +14,9 @@
 	color: white;
 	position: relative;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .box img {
@@ -48,6 +47,9 @@
 	font-size: 1.6rem;
 	cursor: pointer;
 	transition: all 0.4s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .arr_container i {
