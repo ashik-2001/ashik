@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+i {
+    font-style: normal;   
+}
